@@ -1796,3 +1796,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider-service_64 \
     dvs-aidl-service \
     vendor.oplus.hardware.cammidasservice-V1-service
+
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/fairlady/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
+    vendor/oneplus/fairlady/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
